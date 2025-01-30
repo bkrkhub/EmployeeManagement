@@ -1,0 +1,48 @@
+/* Style the navbar background and brand */
+
+.navbar {
+    background: linear-gradient(90deg, #ef6464, #05061f);
+    
+    }
+
+    .navbar .navbar-brand {
+        color: #fff
+    }
+    
+    .navbar .nav-link:hover {
+        color: #ff0000; /* Change to your desired hover color */
+        background-color: rgba(255, 0, 157, 0.2); /* Optional: Add a background on hover */
+        border-radius: 5px; /* Optional: Add rounded corners */
+        text-decoration: underline; /* Optional: Add underline on hover */
+        transition: all 0.3s ease; /* Smooth transition for hover effect */
+    }
+
+    /* Style the navigation links */
+    .navbar .nav-link {
+        color: #fff !important; /*White text color */
+        text-decoration: none !important; /* Remove Underline */
+        margin-right: 20px; /* Add margin between links */
+    }
+
+    .navbarlink:hover {
+        color: #007bff; /* Color on hover */
+        text-decoration: underline; /* Optional: Add underline on hover */
+    }
+
+    .container {
+        max-width: 100%; /* Container'ı tam genişlikte yap */
+        padding: 0;      /* Container'ın padding'ini kaldır */
+    }
+
+    /* Add media query for small screens */
+    @media (max-width: 576px) {
+        .navbar .nav-link {
+            margin-right: 0; /* Remove margin for small screens */
+        }
+    }
+
+
+
+
+
+    
